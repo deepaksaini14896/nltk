@@ -72,6 +72,10 @@ class SyllableTokenizer(TokenizerI):
                 "lmnrw",  # nasals.
                 "zvsf",  # fricatives.
                 "bcdgtkpqxhj",  # stops.
+                "AEIOUY",  # vowels.
+                "LMNRW",  # nasals.
+                "ZVSF",  # fricatives.
+                "BCDGTKPQXHJ",  # stops.
             ]
 
         self.vowels = sonority_hierarchy[0]
